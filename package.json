@@ -1,0 +1,30 @@
+{
+  "name": "hero-coders-issue-checklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export OUTPUT=; run-func index.js prepareComponentsListWithAssignedIssues",
+    "start:csv": "export OUTPUT=csv; run-func index.js prepareComponentsListWithAssignedIssues",
+    "start:json": "export OUTPUT=json; run-func index.js prepareComponentsListWithAssignedIssues",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matwjablonski/hero-coders-issue-checklist.git"
+  },
+  "author": "Mateusz Jabłoński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matwjablonski/hero-coders-issue-checklist/issues"
+  },
+  "homepage": "https://github.com/matwjablonski/hero-coders-issue-checklist#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "json2csv": "^5.0.6"
+  },
+  "devDependencies": {
+    "run-func": "^1.0.5"
+  }
+}
