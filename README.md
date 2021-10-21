@@ -2,6 +2,10 @@
 
 You have can retrieve data in 3 formats: csv, json and as log to console.
 
+## Before you run
+
+Please notice that you should copy .env.sample as .env file and fill those two enviroment variables.
+
 ## To log into a console
 
 `npm run start` 
